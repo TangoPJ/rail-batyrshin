@@ -63,6 +63,11 @@ ul li::marker {
 
     .name {
         margin-bottom: .5rem !important;
+        color: var(--color-primary) !important;
+
+        a {
+            color: var(--color-primary) !important;
+        }
     }
 
     .screen {
@@ -71,6 +76,11 @@ ul li::marker {
 }
 
 @media not print {
+    .name {
+        a {
+            color: var(--color-white) !important;
+        }
+    }
 }
 
 @page {

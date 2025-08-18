@@ -2,8 +2,8 @@ module.exports = {
   name: 'Rail Batyrshin',
   title: 'Web developer',
   location: 'Bishkek, Kyrgyzstan 723510',
-  email: '<a style="color: var(--color-white)" href="mailto:rail.batyrshin.js@gmail.com" target="_blank">rail.batyrshin.js@gmail.com</a>',
-  phone: '<a style="color: var(--color-white)" href="tel:+996555240064">+996555240064</a>',
+  email: '<a href="mailto:rail.batyrshin.js@gmail.com" target="_blank">rail.batyrshin.js@gmail.com</a>',
+  phone: '<a href="tel:+996555240064">+996555240064</a>',
   summary: 'Web developer with 4 years of experience, specializing in front-end development. Skilled in building responsive user interfaces, implementing interactive features, testing, and debugging. Proficient in TypeScript, React, Next.js, Redux, React Query, Tanstack, Redux Toolkit, Vue 2/3, Nuxt.js, Quasar, Chakra UI, MUI, Radix UI and MSW for API mocking. Able to self-manage independent projects and collaborate effectively in team environments.',
   skills: [
     ['HTML'],
