@@ -39,13 +39,19 @@ ul li::marker {
   -moz-columns: 2;
 }
 
-.far {
+.far,
+.fa {
     text-decoration: none !important;
     margin-right: 5px;
 }
 
 .screen:hover {
     text-decoration: underline;
+}
+
+.fact-icon {
+    width: 1em;
+    margin-right: 0.5rem;
 }
 
 @media print {
@@ -62,7 +68,7 @@ ul li::marker {
     }
 
     .name {
-        margin-bottom: .5rem !important;
+        margin-bottom: 1rem !important;
         color: var(--color-primary) !important;
 
         a {
@@ -72,6 +78,10 @@ ul li::marker {
 
     .screen {
         display: none;
+    }
+
+    .header {
+        padding-block: 0 !important;
     }
 }
 
