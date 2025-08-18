@@ -39,6 +39,29 @@ ul li::marker {
   -moz-columns: 2;
 }
 
+.far {
+    text-decoration: none !important;
+    margin-right: 5px;
+}
+
+.screen:hover {
+    text-decoration: underline;
+}
+
+@media print {
+    body {
+        font-size: 0.7rem;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    .screen {
+        display: none;
+    }
+}
+
 @media not print {
 }
 
@@ -46,3 +69,5 @@ ul li::marker {
     size: auto;
     margin: 10mm;
 }
+
+

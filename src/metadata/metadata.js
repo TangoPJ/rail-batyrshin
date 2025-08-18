@@ -133,6 +133,7 @@ module.exports = {
         '<a href="https://medium.com/@rail.batyrshin.js/creation-of-a-custom-hook-for-implementing-reactive-localstorage-in-react-7dbdda263ae9">Custom Hook for reactive localStorage in React</a>',
         '<a href="https://medium.com/@rail.batyrshin.js/code-cuddles-two-approaches-to-implement-slots-in-react-that-i-found-with-code-examples-3acad7990129">Two approaches to implement slots in React</a>',
         '<a href="https://medium.com/@rail.batyrshin.js/the-longest-common-prefix-string-2e2f62c0cacc">The Longest Common Prefix String</a>',
+        '<a href="https://maddevs.io/blog/building-a-simple-before-after-comparison-slider-with-vue/">Building a Simple Before-After Comparison Slider with Vue 2</a>',
       ]
     }
   ]
