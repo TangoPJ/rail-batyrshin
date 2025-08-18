@@ -15,14 +15,15 @@
 </head>
 <body>
     <div class="container page">
-        <header class=" p-4" style="background-color:var(--color-common-chestnut);color:var(--color-white);">
+        <header class=" p-4 header" style="background-color:var(--color-common-chestnut);color:var(--color-white);">
             <div class="d-flex align-items-center mb-4 justify-content-between name">
-                <h1 class="fw-bold fs-1 text-uppercase m-0">{{ @root.name }}</h1>
+                <h1 class="fw-bold fs-1 text-uppercase m-0">{{ name }}</h1>
                 <span class="screen"><a style="color: var(--color-white)" href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
             </div>
-            <div class="vstack name">
-                <span>{{ @root.location }}</span>
-                <div class="hstack gap-1">{{{ @root.email }}} / {{{ @root.phone }}}</div>
+            <div class="vstack gap-2 name">
+                <p class="hstack"><i class="fa fa-home fact-icon"></i>{{{ location }}}</p>
+                <p class="hstack"><i class="fa fa-envelope fact-icon"></i>{{{ email }}}</p>
+                <p class="hstack"><i class="fa-solid fa-phone-volume fact-icon"></i>{{{ phone }}}</p>
             </div>
         </header>
 
