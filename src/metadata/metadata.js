@@ -2,20 +2,21 @@ module.exports = {
   name: 'Rail Batyrshin',
   title: 'Web developer',
   location: 'Bishkek, Kyrgyzstan 723510',
-  email: 'rail.batyrshin.js@gmail.com',
-  phone: '+996555240064',
+  email: '<a style="color: var(--color-white)" href="mailto:rail.batyrshin.js@gmail.com" target="_blank">rail.batyrshin.js@gmail.com</a>',
+  phone: '<a style="color: var(--color-white)" href="tel:+996555240064">+996555240064</a>',
   summary: 'Web developer with 4 years of experience, specializing in front-end development. Skilled in building responsive user interfaces, implementing interactive features, testing, and debugging. Proficient in TypeScript, React, Next.js, Redux, React Query, Tanstack, Redux Toolkit, Vue 2/3, Nuxt.js, Quasar, Chakra UI, MUI, Radix UI and MSW for API mocking. Able to self-manage independent projects and collaborate effectively in team environments.',
   skills: [
     ['HTML'],
     ['CSS'],
-    ['JavaScript/TypeScript']
+    ['JavaScript'],
+    ['TypeScript'],
     ['React'],
     ['Next'],
     ['Redux'],
     ['Redux Toolkit'],
     ['RTK Query'],
     ['Tanstack'],
-    ['msw'],
+    ['MSW'],
     ['Vue'],
     ['Nuxt'],
     ['API integration'],
@@ -24,7 +25,7 @@ module.exports = {
   ],
   experience: [
     {
-      title: 'Web developer',
+      title: 'Web Developer',
       company: 'MadDevs',
       location: 'Bishkek, Kyrgyzstan',
       period: '06/2021 - Current',
@@ -32,51 +33,107 @@ module.exports = {
         {
           project: 'Enji',
           period: '(Aug 2021 - Sep 2021, Sep 2022 - Aug 2023)',
+          withSubprojects: false,
           responsibilities: [
             'Collaborated with founders to translate initial business requirements into actionable technical specifications',
-            'Developed front-end architecture and implemented responsive UI components for all pages using Vue 3 and Quasar Framework, enabling a functional MVP for early user testing',
+            'Developed front-end architecture and implemented responsive UI components for all pages using <b>Vue 3</b> and <b>Quasar</b> framework, enabling a functional MVP for early user testing',
             'Integrated API endpoints to enable smooth data flow between front-end and back-end services, reducing data errors and improving reliability',
             'Ensured cross-browser compatibility and optimized user experience across devices',
             'Conducted unit testing and debugging to maintain functionality and minimize integration issues'
           ]
-        }
+        },
+        {
+          project: 'maddevs.io',
+          period: '(Sep 2021 - Sep 2022)',
+          description: 'Official company website',
+          withSubprojects: false,
+          responsibilities: [
+            'Planned, developed, tested, and maintained the front-end of the company website using <b>Vue 2</b>, <b>Nuxt.js</b>, and <b>SCSS</b>, ensuring responsive design across all devices',
+            'Integrated <b>Prismic CMS</b> to allow easy content management and dynamic page updates',
+            'Created adaptive and reusable slides for internal pages, improving content consistency and reducing future development time',
+            'Integrated third-party APIs (<b>Mailgun</b>, <b>mad-radiator</b>) to automate analytics collection from Google Analytics, Glassdoor, Quora, and Reddit, delivering structured reports to Telegram and Slack',
+            'Optimized front-end performance, reducing page load times and improving user experience'
+          ]
+        },
+        {
+          project: 'WalletPool',
+          period: '(Mar 2023 - Aug 2023, Sep 2023 - Jun 2025)',
+          description: 'Platform for team-based cryptocurrency asset management. Worked on front-end development using <b>React</b>, <b>Next.js</b>, <b>Chakra UI</b>, and <b>Web3</b> technologies',
+          withSubprojects: true,
+          responsibilities: [
+            {
+              subProject: '<b>Crypto Marry</b>',
+              responsibilities: [
+                'Developed responsive UI components and dashboard for team crypto management using <b>React</b>, <b>Next.js</b> and <b>Chakra UI</b> components library',
+                'Integrated <b>Web3</b> features for wallet interactions and transaction tracking',
+                'Ensured smooth performance and cross-browser compatibility'
+              ],
+            },
+            {
+              subProject: '<b>Joiny</b>',
+              responsibilities: [
+                'Built user interfaces and interactive forms for managing crypto assets within teams',
+                'Implemented Web3 integrations for secure data transactions and wallet operations',
+                'Conducted unit testing and debugging to maintain high reliability'
+              ]
+            }
+          ]
+        },
+        {
+          project: 'Optux',
+          period: '(Aug 2023 - Jun 2025)',
+          description: 'Platform for A/B testing websites. Developed full front-end from scratch using <b>React</b> and <b>Chakra UI</b>',
+          withSubprojects: false,
+          responsibilities: [
+            'Built the entire front-end architecture from scratch, including main pages, editor page, analytics dashboard, and settings page',
+            'Developed a custom iframe-based editor for modifying third-party website pages, enabling live <b>A/B testing</b> functionality',
+            'Implemented dynamic data visualization for analytics, processing backend data to generate interactive charts and graphs',
+            'Closely collaborated with backend developers to design API interactions and ensure smooth data flow',
+            'Wrote unit tests using <b>MSW</b> to mock backend responses and ensure front-end reliability',
+            'Deployed the initial production version, enabling early user testing and feedback'
+          ]
+        },
+        {
+          project: 'AI True PMF',
+          period: '(Jun 2025 - Aug 2025)',
+          description: 'Platform for validating startup ideas using AI-driven lead generation and team collaboration. Developed front-end using <b>React</b> and <b>TanStack</b> ecosystem',
+          withSubprojects: false,
+          responsibilities: [
+            'Built interactive dashboards and session pages to manage experiments and track results',
+            'Implemented real-time collaboration and online chat using <b>WebSockets</b>',
+            'Integrated <b>AI</b> workflows to identify potential client companies and prioritize leads from cold call transcripts',
+            'Designed responsive UI components for seamless cross-device experience',
+            'Collaborated with backend developers to ensure smooth data flow between AI services, chat, and dashboards'
+          ]
+        },
       ]
     }
   ],
-
-  facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
-                </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
-  },
-
-  positions: [
+  education: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
-      contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
-    },
-    {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
-      contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
-    },
-    {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
-      contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
+      degree: 'Master degree',
+      specialty: 'Radio Engineering',
+      schoolName: 'OmSTU',
+      location: 'Russia, Omsk',
+      graduationDate: '07/2013'
     }
   ],
+  activities: [
+    {
+      title: '<b>Open-source contributions</b>',
+      descriptions: [
+        '<a href="https://github.com/chakra-ui/chakra-ui/pull/9388">Chakra UI</a>',
+        '<a href="https://github.com/TangoPJ/hono-tanstack-jwt-auth">Hono+Supabase+React+TanStack (My JWT Auth example)</a>',
+        '<a href="https://github.com/sneas/cv-template/pull/19">CV Template PR</a>',
+      ]
+    },
+    {
+      title: '<b>Articles</b>',
+      descriptions: [
+        '<a href="https://medium.com/@rail.batyrshin.js/creation-of-a-custom-hook-for-implementing-reactive-localstorage-in-react-7dbdda263ae9">Custom Hook for reactive localStorage in React</a>',
+        '<a href="https://medium.com/@rail.batyrshin.js/code-cuddles-two-approaches-to-implement-slots-in-react-that-i-found-with-code-examples-3acad7990129">Two approaches to implement slots in React</a>',
+        '<a href="https://medium.com/@rail.batyrshin.js/the-longest-common-prefix-string-2e2f62c0cacc">The Longest Common Prefix String</a>',
+      ]
+    }
+  ]
 };

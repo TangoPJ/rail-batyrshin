@@ -15,53 +15,133 @@
 </head>
 <body>
     <div class="container">
-        <header class="header">
-            <h1 class="name">{{ name }}</h1>
-            <div class="facts">
-                <span>{{ location }}</span>
-                <span>{{ email }} / {{ phone }}</span>
+        <header class=" p-4" style="background-color: var(--color-common-chestnut); color: var(--color-white);">
+            <div class="d-flex align-items-center mb-4 justify-content-between">
+                <h1 class="fw-bold fs-1 text-uppercase">{{ @root.name }}</h1>
+                <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
+            </div>
+            <div class="vstack">
+                <span>{{ @root.location }}</span>
+                <div class="hstack gap-1">{{{ @root.email }}} / {{{ @root.phone }}}</div>
             </div>
         </header>
-        <section class="summary">
-            <p class="title">Summary</p>
-            <p class="content">
-                {{ summary }}
+
+        <section class="p-4">
+            <span class="text-uppercase fw-bold fs-6 mb-2 d-block" style="color: var(--color-common-chestnut)">Summary</span>
+            <p>
+                {{ @root.summary }}
             </p>
         </section>
-        <div class="separator">
-            <hr />
+
+        <div class="px-4">
+            <hr class="m-0" />
         </div>
-        <section class="summary">
-            <p class="title">Skills</p>
+
+        <section class="p-4">
+            <span class="text-uppercase fw-bold fs-6 mb-2 d-block" style="color: var(--color-common-chestnut)">Skills</span>
             <p class="content">
                 <ul class="skills-list">
                     {{#each skills}}
-                    <li >
-                        <span class="text-nowrap">{{ @key }}</span>
-                        <span class="text-nowrap">{{{ this }}}</span>
+                    <li>
+                        <span class="text-nowrap">{{ this }}</span>
                     </li>
                     {{/each}}
                 </ul>
             </p>
         </section>
-        <div class="separator">
-            <hr />
+
+        <div class="px-4">
+            <hr class="m-0" />
         </div>
-        <section class="summary">
-            <p class="title">Experience</p>
-            <p class="content">
-                <ul>
-                    {{#each experience}}
-                    <li >
-                        <span class="text-nowrap">{{ title }}</span>
-                    </li>
-                    {{/each}}
-                </ul>
-            </p>
+
+        <section class="p-4">
+            <span class="text-uppercase fw-bold fs-6 mb-2 d-block" style="color: var(--color-common-chestnut)">Experience</span>
+            {{#each experience}}
+            <div>
+                <div class="row mb-3">
+                    <div class="col-7">
+                        <p>
+                            <span class="fw-bold">{{ title }}</span> / {{ company }} - {{ location }}
+                        </p>
+                    </div>
+                    <div class="col-5">
+                        <p class="text-end fst-italic">
+                            {{ period }}
+                        </p>
+                    </div>
+                </div>
+                {{#each projects}}
+                    <div>
+                        <div class="vstack mb-2">
+                            <p class="fw-bold">Project: {{ project }} {{ period }}</p>
+                            {{#if description}}
+                                <p class="fst-italic">{{{ description }}}</p>
+                            {{/if}}
+                        </div>
+                        {{#if withSubprojects}}
+                        {{#each responsibilities}}
+                            <div>
+                                <p class="mb-1">Sub-project: {{{ subProject }}}</p>
+                                <ul>
+                                    {{#each responsibilities}}
+                                        <li>{{{ this }}}</li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                        {{/each}}
+                        {{else}}
+                            <ul>
+                                {{#each responsibilities}}
+                                <li>
+                                    {{{ this }}}
+                                </li>
+                                {{/each}}
+                            </ul>
+                    </div>
+                    {{/if}}
+                {{/each}}
+            </div>
+            {{/each}}
         </section>
-        <div class="separator">
-            <hr />
+
+        <div class="px-4">
+            <hr class="m-0" />
         </div>
+
+        <section class="p-4">
+            <span class="text-uppercase fw-bold fs-6 mb-2 d-block" style="color: var(--color-common-chestnut)">Education</span>
+            <div class="row">
+                <div class="d-flex align-items-start">
+                    {{#each education}}
+                        <div class="vstack">
+                            <p><span class="fw-bold">{{this.degree}}</span>: {{this.specialty}}</p>
+                            <p>{{this.schoolName}} - {{this.location}}</p>
+                        </div>
+                        <p class="fst-italic">{{this.graduationDate}}</p>
+                    {{/each}}
+                </div>
+            </div>
+        </section>
+
+        <div class="px-4">
+            <hr class="m-0" />
+        </div>
+
+        <section class="p-4">
+            <span class="text-uppercase fw-bold fs-6 mb-2 d-block" style="color: var(--color-common-chestnut)">Activities</span>
+            <div class="row">
+                {{#each activities}}
+                    <div class="mb-2">
+                        <p class="mb-1">{{{this.title}}}:</p>
+                        <ul>
+                            {{#each this.descriptions}}
+                                <li>{{{ this }}}</li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                {{/each}}
+            </div>
+        </section>
     </div>
 </body>
 </html>
