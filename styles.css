@@ -7,6 +7,8 @@
     --dark-color: #7a7a7a;
     --color-white: #fff;
     --color-black: #000;
+    --color-primary: #494C4E;
+    --color-common-chestnut: #01a4c1;
 }
 
 html,
@@ -14,6 +16,8 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: var(--color-primary);
+    font-size: 16px;
 }
 
 a {
@@ -29,23 +33,6 @@ ul li::marker {
     color: var(--color-black);
 }
 
-.header {
-    color: var(--color-white);
-}
-
-.name {
-    font-size: 2rem;
-    line-height: 2rem;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.facts {
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
-}
-
 .skills-list {
   columns: 2;
   -webkit-columns: 2;
@@ -53,35 +40,6 @@ ul li::marker {
 }
 
 @media not print {
-    .header {
-        padding: 2rem;
-        background-color: #01a4c1;
-    }
-
-    .summary {
-        padding: 2rem;
-
-        .title {
-            color: #01a4c1;
-            text-transform: uppercase;
-            font-size: 1rem;
-            font-weight: 700;
-            margin-bottom: .5rem;
-        }
-
-        .content {
-            color: #494c4e;
-        }
-    }
-
-    .separator {
-        margin: 0;
-        padding: 0 2rem;
-
-        hr {
-            margin: 0;
-        }
-    }
 }
 
 @page {
