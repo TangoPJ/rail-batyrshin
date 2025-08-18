@@ -57,6 +57,14 @@ ul li::marker {
         text-decoration: underline;
     }
 
+    .page {
+        min-width: 100%;
+    }
+
+    .name {
+        margin-bottom: .5rem !important;
+    }
+
     .screen {
         display: none;
     }
