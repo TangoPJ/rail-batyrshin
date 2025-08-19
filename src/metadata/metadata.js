@@ -1,12 +1,12 @@
 module.exports = {
   name: 'Rail Batyrshin',
-  title: 'Web developer',
+  title: 'Frontend Engineer',
   location: '<a href="https://www.google.com/maps/place/Osh/@40.5171469,72.7941345,15z/data=!4m15!1m8!3m7!1s0x38bdac017f5a2e85:0xe0a3c61dc6f47b95!2sOsh!3b1!8m2!3d40.5165129!4d72.8033585!16zL20vMDRyMWg2!3m5!1s0x38bdac017f5a2e85:0xe0a3c61dc6f47b95!8m2!3d40.5165129!4d72.8033585!16zL20vMDRyMWg2?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D">Bishkek, Kyrgyzstan 723510</a>',
   email: '<a href="mailto:rail.batyrshin.js@gmail.com" target="_blank">rail.batyrshin.js@gmail.com</a>',
   phone: '<a href="tel:+996555240064">+996555240064</a>',
   github: '<a href="https://github.com/TangoPJ" target="_blank">TangoPJ</a>',
   linkedin: '<a href="https://www.linkedin.com/in/rail-batyrshin" target="_blank">Rail Batyrshin</a>',
-  summary: 'Web developer with 4 years of experience, specializing in front-end development. Skilled in building responsive user interfaces, implementing interactive features, testing, and debugging. Proficient in TypeScript, React, Next.js, Redux, React Query, TanStack, Redux Toolkit, Vue 2/3, Nuxt.js, Quasar, Chakra UI, MUI, Radix UI and MSW for API mocking. Able to self-manage independent projects and collaborate effectively in team environments.',
+  summary: 'Frontend Engineer with 4 years of experience, specializing in building responsive UIs, implementing interactive features, and ensuring reliable performance through testing and debugging. Proficient in TypeScript, React, Next.js, Redux, RTK Query, TanStack ecosystem, Vue 2/3, Nuxt.js, and Quasar. Skilled in UI libraries such as Chakra UI, MUI, and Radix UI, with expertise in MSW for API mocking. Proven ability to self-manage independent projects and collaborate effectively in team environments',
   skills: [
     ['HTML'],
     ['CSS'],
@@ -29,7 +29,7 @@ module.exports = {
   ],
   experience: [
     {
-      title: 'Web Developer',
+      title: 'Frontend Engineer',
       company: 'MadDevs',
       location: 'Bishkek, Kyrgyzstan',
       period: '06/2021 - Current',
