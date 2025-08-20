@@ -16,16 +16,19 @@
 <body>
     <div class="container page">
         <header class=" p-4 header" style="background-color:var(--color-common-chestnut);color:var(--color-white);">
-            <div class="d-flex align-items-center mb-4 justify-content-between name">
-                <h1 class="fw-bold fs-1 text-uppercase m-0">{{ name }}</h1>
-                <span class="screen"><a style="color: var(--color-white)" href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
-            </div>
-            <div class="vstack gap-2 name">
-                <p class="hstack"><i class="fa fa-home fact-icon"></i>{{{ location }}}</p>
-                <p class="hstack"><i class="fa fa-envelope fact-icon"></i>{{{ email }}}</p>
-                <p class="hstack"><i class="fa-solid fa-phone-volume fact-icon"></i>{{{ phone }}}</p>
-                <p class="hstack"><i class="fa-brands fa-github fact-icon"></i>{{{ github }}}</p>
-                <p class="hstack"><i class="fa-brands fa-linkedin fact-icon"></i>{{{ linkedin }}}</p>
+            <div class="d-flex align-items-center justify-content-between name">
+                <div class="vstack gap-2">
+                    <h1 class="fw-bold fs-1 text-uppercase m-0">{{ name }}</h1>
+                    <h2 class="mb-4">{{ title }}</h2>
+                    <span class="screen"><a style="color: var(--color-white)" href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
+                </div>
+                <div class="d-flex flex-column gap-2 name">
+                    <span class="hstack"><i class="fa fa-home fact-icon"></i>{{{ location }}}</span>
+                    <span class="hstack"><i class="fa fa-envelope fact-icon"></i>{{{ email }}}</span>
+                    <span class="hstack"><i class="fa-solid fa-phone-volume fact-icon"></i>{{{ phone }}}</span>
+                    <span class="hstack"><i class="fa-brands fa-github fact-icon"></i>{{{ github }}}</span>
+                    <span class="hstack"><i class="fa-brands fa-linkedin fact-icon"></i>{{{ linkedin }}}</span>
+                </div>
             </div>
         </header>
 
