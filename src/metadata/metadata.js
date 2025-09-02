@@ -138,6 +138,7 @@ module.exports = {
         '<a href="https://medium.com/@rail.batyrshin.js/code-cuddles-two-approaches-to-implement-slots-in-react-that-i-found-with-code-examples-3acad7990129">Two approaches to implement slots in React</a>',
         '<a href="https://medium.com/@rail.batyrshin.js/the-longest-common-prefix-string-2e2f62c0cacc">The Longest Common Prefix String</a>',
         '<a href="https://maddevs.io/blog/building-a-simple-before-after-comparison-slider-with-vue/">Building a Simple Before-After Comparison Slider with Vue 2</a>',
+        '<a href="https://medium.com/@rail.batyrshin.js/abortcontroller-and-event-listener-management-975f63f1aa67">AbortController and Event Listener Management</a>',
       ]
     }
   ]
