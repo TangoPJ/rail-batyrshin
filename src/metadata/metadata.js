@@ -129,6 +129,7 @@ module.exports = {
         '<a href="https://github.com/chakra-ui/chakra-ui/pull/9388">Chakra UI</a>',
         '<a href="https://github.com/TangoPJ/hono-tanstack-jwt-auth">Hono+Supabase+React+TanStack (My JWT Auth example)</a>',
         '<a href="https://github.com/sneas/cv-template/pull/19">CV Template PR</a>',
+        '<a href="https://github.com/vocably/language-learning-tool/pull/72">Vocably — a language-learning tool</a>',
       ]
     },
     {
