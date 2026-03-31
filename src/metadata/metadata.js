@@ -6,7 +6,7 @@ module.exports = {
   phone: '<a href="tel:+996555240064">+996555240064</a>',
   github: '<a href="https://github.com/TangoPJ" target="_blank">TangoPJ</a>',
   linkedin: '<a href="https://www.linkedin.com/in/rail-batyrshin" target="_blank">Rail Batyrshin</a>',
-  summary: 'Frontend Engineer with 4 years of experience, specializing in building responsive UIs, implementing interactive features, and ensuring reliable performance through testing and debugging. Proficient in TypeScript, React, Next.js, Redux, RTK Query, TanStack ecosystem, Vue 2/3, Nuxt.js, and Quasar. Skilled in UI libraries such as Chakra UI, MUI, and Radix UI, with expertise in MSW for API mocking. Proven ability to self-manage independent projects and collaborate effectively in team environments',
+  summary: 'Frontend Engineer with 5 years of experience building production-grade web and mobile applications. Specializing in React ecosystem, TypeScript, and TanStack. Proven track record delivering complex platforms from scratch - including A/B testing tools, AI-driven interfaces, and cross-platform mobile apps. Active open-source contributor with published technical articles.',
   skills: [
     ['HTML'],
     ['CSS'],
@@ -26,6 +26,7 @@ module.exports = {
     ['API integration'],
     ['Responsive/Adaptive UI/UX design'],
     ['Open Source'],
+    ['React Native'],
   ],
   experience: [
     {
@@ -110,6 +111,18 @@ module.exports = {
             'Collaborated with backend developers to ensure smooth data flow between AI services, chat, and dashboards'
           ]
         },
+        {
+          project: 'Vivio',
+          period: '(Aug 2025 - Present)',
+          description: 'Cross-platform dating platform. Maintained and developed web interfaces, admin panels, and mobile apps using <b>React</b>, <b>React Native</b>, and <b>TanStack</b> ecosystem',
+          withSubprojects: false,
+          responsibilities: [
+            'Resolved Google Play Console 16KB page alignment requirement, enabling successful app publication',
+            'Migrated forms to TanStack Form with Zod validation, modernizing the codebase across multiple apps',
+            'Implemented new features and performance optimizations across 12 interconnected applications',
+            'Maintained consistent functionality across web, admin, and mobile platforms with shared codebase architecture',
+          ]
+        }
       ]
     }
   ],
