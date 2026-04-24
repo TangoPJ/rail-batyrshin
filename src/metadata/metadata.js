@@ -144,7 +144,7 @@ module.exports = {
     {
       title: '<b>Side Projects</b>',
       descriptions: [
-        '<a href="https://testless.vercel.app" target="_blank">Testless</a> - AI-powered A/B testing platform for landing pages. Built fullstack from scratch: AI content generation, variant testing, analytics dashboard with winner detection. Stack: Bun, Hono, PostgreSQL, Drizzle ORM, React, TanStack, Astro, AWS S3, Groq AI. Deployed on Railway + Vercel.',
+        '<a href="https://testless.vercel.app" target="_blank">Testless</a> - Independently designed and shipped a fullstack SaaS MVP in 10 days. AI-powered A/B testing platform: AI-generated landing page variants, cookie-based traffic splitting, real-time analytics with automatic winner detection. Stack: TypeScript, Bun, Hono, PostgreSQL, Drizzle ORM, React, TanStack, Astro, AWS S3, Groq AI. Deployed to production on day 10.',
       ]
     },
     {
