@@ -8,8 +8,7 @@ module.exports = {
   linkedin: '<a href="https://www.linkedin.com/in/rail-batyrshin" target="_blank">Rail Batyrshin</a>',
   summary: 'Frontend Engineer with 5 years of experience building production-grade web and mobile applications. Specializing in React ecosystem, TypeScript, and TanStack. Proven track record delivering complex platforms from scratch - including A/B testing tools, AI-driven interfaces, and cross-platform mobile apps. Independently built and shipped a fullstack SaaS product. Active open-source contributor with published technical articles.',
   skills: [
-    { category: 'Frontend', items: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next', 'Vue', 'Nuxt', 'React Native'] },
-    { category: 'State & Data', items: ['Redux', 'Redux Toolkit', 'RTK Query', 'TanStack', 'MSW'] },
+    { category: 'Frontend', items: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next', 'Vue', 'Nuxt', 'React Native', 'Redux', 'Redux Toolkit', 'RTK Query', 'TanStack', 'MSW'] },
     { category: 'Backend', items: ['Node.js / Bun', 'Hono', 'PostgreSQL', 'Drizzle ORM', 'AWS S3'] },
     { category: 'Tooling', items: ['Vite', 'webpack', 'API integration', 'Responsive/Adaptive UI/UX design'] },
   ],
