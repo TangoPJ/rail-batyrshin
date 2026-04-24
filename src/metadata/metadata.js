@@ -6,7 +6,7 @@ module.exports = {
   phone: '<a href="tel:+996555240064">+996555240064</a>',
   github: '<a href="https://github.com/TangoPJ" target="_blank">TangoPJ</a>',
   linkedin: '<a href="https://www.linkedin.com/in/rail-batyrshin" target="_blank">Rail Batyrshin</a>',
-  summary: 'Frontend Engineer with 5 years of experience building production-grade web and mobile applications. Specializing in React ecosystem, TypeScript, and TanStack. Proven track record delivering complex platforms from scratch - including A/B testing tools, AI-driven interfaces, and cross-platform mobile apps. Active open-source contributor with published technical articles.',
+  summary: 'Frontend Engineer with 5 years of experience building production-grade web and mobile applications. Specializing in React ecosystem, TypeScript, and TanStack. Proven track record delivering complex platforms from scratch - including A/B testing tools, AI-driven interfaces, and cross-platform mobile apps. Independently built and shipped a fullstack SaaS product. Active open-source contributor with published technical articles.',
   skills: [
     ['HTML'],
     ['CSS'],
@@ -27,6 +27,11 @@ module.exports = {
     ['Responsive/Adaptive UI/UX design'],
     ['Open Source'],
     ['React Native'],
+    ['Node.js / Bun'],
+    ['PostgreSQL'],
+    ['Hono'],
+    ['Drizzle ORM'],
+    ['AWS S3'],
   ],
   experience: [
     {
@@ -136,6 +141,12 @@ module.exports = {
     }
   ],
   activities: [
+    {
+      title: '<b>Side Projects</b>',
+      descriptions: [
+        '<a href="https://testless.vercel.app" target="_blank">Testless</a> — AI-powered A/B testing platform for landing pages. Built fullstack from scratch: AI content generation, variant testing, analytics dashboard with winner detection. Stack: Bun, Hono, PostgreSQL, Drizzle ORM, React, TanStack, Astro, AWS S3, Groq AI. Deployed on Railway + Vercel.',
+      ]
+    },
     {
       title: '<b>Open-source contributions</b>',
       descriptions: [
