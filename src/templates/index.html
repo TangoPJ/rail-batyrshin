@@ -115,25 +115,20 @@
 
         <section class="p-4">
             <span class="text-uppercase fw-bold fs-6 mb-2 d-block" style="color: var(--color-common-chestnut)">Education</span>
-            <div class="row">
-                <div class="d-flex align-items-start">
-                    {{#each education}}
-                        <div class="vstack">
-                            <p><span class="fw-bold">{{this.degree}}</span>: {{this.specialty}}</p>
-                            <p>{{this.schoolName}} - {{this.location}}</p>
-                        </div>
-                        <p class="fst-italic">{{this.graduationDate}}</p>
-                    {{/each}}
-                </div>
+            {{#each education}}
+            <div class="d-flex justify-content-between align-items-baseline">
+              <p class="m-0"><span class="fw-bold">{{this.degree}}</span> in {{this.specialty}}, {{this.schoolName}}, {{this.location}}</p>
+              <p class="m-0 fst-italic text-nowrap ms-3">{{this.graduationDate}}</p>
             </div>
-        </section>
+            {{/each}}
+          </section>
 
         <div class="px-4">
             <hr class="m-0" />
         </div>
 
         <section class="p-4">
-            <span class="text-uppercase fw-bold fs-6 mb-2 d-block" style="color: var(--color-common-chestnut)">Activities</span>
+            <span class="text-uppercase fw-bold fs-6 mb-2 d-block" style="color: var(--color-common-chestnut)">Projects & Contributions</span>
             <div class="row">
                 {{#each activities}}
                     <div class="mb-2">
