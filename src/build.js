@@ -19,6 +19,7 @@ fs.copySync(srcDir + '/assets', outputDir);
 
 // Build HTML
 handlebars.registerHelper('markdown', markdownHelper);
+handlebars.registerHelper('join', (arr, separator) => arr.join(separator));
 const source = fs.readFileSync(srcDir + '/templates/index.html', 'utf-8');
 const template = handlebars.compile(source);
 const pdfFileName = `${getSlug(templateData.name)}.${getSlug(templateData.title)}.pdf`;

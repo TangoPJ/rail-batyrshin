@@ -45,16 +45,15 @@
 
         <section class="p-4">
             <span class="text-uppercase fw-bold fs-6 mb-2 d-block" style="color: var(--color-common-chestnut)">Skills</span>
-            <p class="content">
-                <ul class="skills-list">
-                    {{#each skills}}
-                    <li>
-                        <span class="text-nowrap">{{ this }}</span>
-                    </li>
-                    {{/each}}
-                </ul>
-            </p>
-        </section>
+            <div class="d-flex flex-column gap-2">
+              {{#each skills}}
+              <div class="d-flex gap-2">
+                <span class="fw-bold text-nowrap" style="min-width: 120px;">{{ category }}:</span>
+                <span>{{ join items ", " }}</span>
+              </div>
+              {{/each}}
+            </div>
+          </section>
 
         <div class="px-4">
             <hr class="m-0" />
