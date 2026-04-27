@@ -1,12 +1,12 @@
 module.exports = {
   name: 'Rail Batyrshin',
   title: 'Frontend Engineer',
-  location: '<a href="https://www.google.com/maps/place/Osh/@40.5171469,72.7941345,15z/data=!4m15!1m8!3m7!1s0x38bdac017f5a2e85:0xe0a3c61dc6f47b95!2sOsh!3b1!8m2!3d40.5165129!4d72.8033585!16zL20vMDRyMWg2!3m5!1s0x38bdac017f5a2e85:0xe0a3c61dc6f47b95!8m2!3d40.5165129!4d72.8033585!16zL20vMDRyMWg2?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D">Bishkek, Kyrgyzstan 723510</a>',
+  location: '<a href="https://maps.app.goo.gl/WpVBhV74LtBPXzYu8">Bishkek, Kyrgyzstan 723510</a>',
   email: '<a href="mailto:rail.batyrshin.js@gmail.com" target="_blank">rail.batyrshin.js@gmail.com</a>',
   phone: '<a href="tel:+996555240064">+996555240064</a>',
   github: '<a href="https://github.com/TangoPJ" target="_blank">TangoPJ</a>',
   linkedin: '<a href="https://www.linkedin.com/in/rail-batyrshin" target="_blank">Rail Batyrshin</a>',
-  summary: 'Frontend Engineer with 5 years of experience building production-grade web and mobile applications. Specializing in React ecosystem, TypeScript, and TanStack. Proven track record delivering complex platforms from scratch - including A/B testing tools, AI-driven interfaces, and cross-platform mobile apps. Independently built and shipped a fullstack SaaS product. Active open-source contributor with published technical articles.',
+  summary: 'Frontend Engineer with 5 years of experience building production-grade web and mobile products in React, TypeScript, and modern UI frameworks. Delivered multiple platforms from scratch, including A/B testing tools, AI-driven interfaces, and cross-platform apps, and independently shipped a SaaS MVP. Open-source contributor and technical writer.',
   skills: [
     { category: 'Frontend', items: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next', 'Vue', 'Nuxt', 'React Native', 'Redux', 'Redux Toolkit', 'RTK Query', 'TanStack', 'MSW'] },
     { category: 'Backend', items: ['Node.js / Bun', 'Hono', 'PostgreSQL', 'Drizzle ORM', 'AWS S3'] },
@@ -17,7 +17,7 @@ module.exports = {
       title: 'Frontend Engineer',
       company: 'MadDevs',
       location: 'Osh, Kyrgyzstan',
-      period: '06/2021 - Current',
+      period: 'Jun 2021 - Present',
       projects: [
         {
           project: 'Enji',
@@ -74,12 +74,12 @@ module.exports = {
           description: 'Platform for A/B testing websites. Developed full front-end from scratch using <b>React</b> and <b>Chakra UI</b>',
           withSubprojects: false,
           responsibilities: [
-            'Built the entire front-end architecture from scratch, including main pages, editor page, analytics dashboard, and settings page',
+            'Architected and shipped the full front-end from scratch - main pages, editor, analytics dashboard, and settings - enabling the platform to reach production',
             'Developed a custom iframe-based editor for modifying third-party website pages, enabling live <b>A/B testing</b> functionality',
-            'Implemented dynamic data visualization for analytics, processing backend data to generate interactive charts and graphs',
+            'Implemented interactive analytics charts by processing raw backend data, giving users real-time visibility into test results',
             'Closely collaborated with backend developers to design API interactions and ensure smooth data flow',
-            'Wrote unit tests using <b>MSW</b> to mock backend responses and ensure front-end reliability',
-            'Deployed the initial production version, enabling early user testing and feedback'
+            'Mocked backend responses with <b>MSW</b> to enable reliable unit testing independently of API readiness',
+            'Collaborated with backend developers on API design to ensure clean data contracts across the stack'
           ]
         },
         {
@@ -112,11 +112,11 @@ module.exports = {
   ],
   education: [
     {
-      degree: 'Master degree',
+      degree: 'Master\'s degree',
       specialty: 'Radio Engineering',
       schoolName: 'OmSTU',
       location: 'Russia, Omsk',
-      graduationDate: '07/2013'
+      graduationDate: 'Jul 2013'
     }
   ],
   activities: [
