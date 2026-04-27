@@ -77,7 +77,6 @@ module.exports = {
             'Architected and shipped the full front-end from scratch - main pages, editor, analytics dashboard, and settings - enabling the platform to reach production',
             'Developed a custom iframe-based editor for modifying third-party website pages, enabling live <b>A/B testing</b> functionality',
             'Implemented interactive analytics charts by processing raw backend data, giving users real-time visibility into test results',
-            'Closely collaborated with backend developers to design API interactions and ensure smooth data flow',
             'Mocked backend responses with <b>MSW</b> to enable reliable unit testing independently of API readiness',
             'Collaborated with backend developers on API design to ensure clean data contracts across the stack'
           ]
