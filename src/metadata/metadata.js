@@ -122,7 +122,7 @@ module.exports = {
     {
       title: '<b>Side Projects</b>',
       descriptions: [
-        '<a href="https://app.testless.tech" target="_blank">Testless</a> - Independently designed and shipped a fullstack SaaS MVP in 10 days. AI-powered A/B testing platform: AI-generated landing page variants, cookie-based traffic splitting, real-time analytics with automatic winner detection. Stack: TypeScript, Bun, Hono, PostgreSQL, Drizzle ORM, React, TanStack, Astro, AWS S3, Groq AI. Deployed to production on day 10.',
+        '<a href="https://app.testless.tech" target="_blank">Testless</a> - Independently designed and shipped a fullstack SaaS MVP in 1 month. AI-powered A/B testing platform: AI-generated landing page variants, cookie-based traffic splitting, real-time analytics with automatic winner detection. Stack: TypeScript, Bun, Hono, PostgreSQL, Drizzle ORM, React, TanStack, Astro, AWS S3, Groq AI',
       ]
     },
     {
