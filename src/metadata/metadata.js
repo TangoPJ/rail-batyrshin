@@ -16,7 +16,7 @@ module.exports = {
     {
       title: 'Frontend Engineer',
       company: 'MadDevs',
-      location: 'Osh, Kyrgyzstan',
+      location: 'Bishkek, Kyrgyzstan',
       period: 'Jun 2021 - Present',
       projects: [
         {
