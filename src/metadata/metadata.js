@@ -1,7 +1,6 @@
 module.exports = {
   name: 'Rail Batyrshin',
   title: 'Frontend Engineer',
-  location: '<a href="https://maps.app.goo.gl/WpVBhV74LtBPXzYu8">Bishkek, Kyrgyzstan 723510</a>',
   email: '<a href="mailto:rail.batyrshin.js@gmail.com" target="_blank">rail.batyrshin.js@gmail.com</a>',
   phone: '<a href="tel:+996555240064">+996555240064</a>',
   github: '<a href="https://github.com/TangoPJ" target="_blank">TangoPJ</a>',
