@@ -2,7 +2,6 @@ module.exports = {
   name: 'Rail Batyrshin',
   title: 'Frontend Engineer',
   email: '<a href="mailto:rail.batyrshin.js@gmail.com" target="_blank">rail.batyrshin.js@gmail.com</a>',
-  phone: '<a href="tel:+996555240064">+996555240064</a>',
   github: '<a href="https://github.com/TangoPJ" target="_blank">TangoPJ</a>',
   linkedin: '<a href="https://www.linkedin.com/in/rail-batyrshin" target="_blank">Rail Batyrshin</a>',
   summary: 'Frontend Engineer with 5 years of experience building production-grade web and mobile products in React, TypeScript, and modern UI frameworks. Delivered multiple platforms from scratch, including A/B testing tools, AI-driven interfaces, and cross-platform apps, and independently shipped a SaaS MVP. Open-source contributor and technical writer.',
