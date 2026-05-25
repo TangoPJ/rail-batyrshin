@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Rail Batyrshin',
   title: 'Frontend Engineer',
-  email: '<a href="mailto:rail.batyrshin.js@gmail.com" target="_blank">rail.batyrshin.js@gmail.com</a>',
-  github: '<a href="https://github.com/TangoPJ" target="_blank">TangoPJ</a>',
-  linkedin: '<a href="https://www.linkedin.com/in/rail-batyrshin" target="_blank">Rail Batyrshin</a>',
+  email: '<a href="mailto:rail.batyrshin.js@gmail.com" target="_blank">Email</a>',
+  github: '<a href="https://github.com/TangoPJ" target="_blank">GitHub</a>',
+  linkedin: '<a href="https://www.linkedin.com/in/rail-batyrshin" target="_blank">Linkedin</a>',
   summary: 'Frontend Engineer with 5 years of experience building production-grade web and mobile products in React, TypeScript, and modern UI frameworks. Delivered multiple platforms from scratch, including A/B testing tools, AI-driven interfaces, and cross-platform apps, and independently shipped a SaaS MVP. Open-source contributor and technical writer.',
   skills: [
     { category: 'Frontend', items: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next', 'Vue', 'Nuxt', 'React Native', 'Redux', 'Redux Toolkit', 'RTK Query', 'TanStack', 'MSW'] },
