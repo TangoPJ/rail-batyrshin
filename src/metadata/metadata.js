@@ -94,7 +94,7 @@ module.exports = {
         },
         {
           project: 'Vivio',
-          period: '(Aug 2025 - Present)',
+          period: '(Aug 2025 - Mar 2026)',
           description: 'Cross-platform dating platform. Maintained and developed web interfaces, admin panels, and mobile apps using <b>React</b>, <b>React Native</b>, and <b>TanStack</b> ecosystem',
           withSubprojects: false,
           responsibilities: [
