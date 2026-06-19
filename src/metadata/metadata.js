@@ -4,11 +4,11 @@ module.exports = {
   email: '<a href="mailto:rail.batyrshin.js@gmail.com" target="_blank">Email</a>',
   github: '<a href="https://github.com/TangoPJ" target="_blank">GitHub</a>',
   linkedin: '<a href="https://www.linkedin.com/in/rail-batyrshin" target="_blank">Linkedin</a>',
-  summary: 'Frontend Engineer with 5 years of experience building production-grade web and mobile products in React, TypeScript, and modern UI frameworks. Delivered multiple platforms from scratch, including A/B testing tools, AI-driven interfaces, and cross-platform apps, and independently shipped a SaaS MVP. Open-source contributor and technical writer.',
+  summary: 'Frontend Engineer with 5 years of experience building production-grade web products in React, TypeScript, and modern UI frameworks. Delivered multiple platforms from scratch, including A/B testing tools, AI-driven interfaces, and cross-platform apps, and independently shipped a SaaS MVP. Open-source contributor and technical writer.',
   skills: [
-    { category: 'Frontend', items: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next', 'Vue', 'Nuxt', 'React Native', 'Redux', 'Redux Toolkit', 'RTK Query', 'TanStack', 'MSW'] },
+    { category: 'Frontend', items: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Next', 'Vue', 'Nuxt', 'React Native', 'Redux', 'Redux Toolkit', 'RTK Query', 'TanStack', 'MSW'] },
     { category: 'Backend', items: ['Node.js / Bun', 'Hono', 'PostgreSQL', 'Drizzle ORM', 'AWS S3'] },
-    { category: 'Tooling', items: ['Vite', 'webpack', 'API integration', 'Responsive/Adaptive UI/UX design'] },
+    { category: 'Tooling', items: ['Vite', 'Webpack', 'API integration', 'Responsive/Adaptive UI/UX design'] },
   ],
   experience: [
     {
@@ -23,9 +23,8 @@ module.exports = {
           withSubprojects: false,
           responsibilities: [
             'Collaborated with founders to translate initial business requirements into actionable technical specifications',
-            'Developed front-end architecture and implemented responsive UI components for all pages using <b>Vue 3</b> and <b>Quasar</b> framework, enabling a functional MVP for early user testing',
-            'Integrated API endpoints to enable smooth data flow between front-end and back-end services, reducing data errors and improving reliability',
-            'Ensured cross-browser compatibility and optimized user experience across devices',
+            'Developed frontend architecture and implemented responsive UI components for all pages using <b>Vue 3</b> and <b>Quasar</b> framework, enabling a functional MVP for early user testing',
+            'Integrated API endpoints to enable smooth data flow between frontend and backend services',
             'Conducted unit testing and debugging to maintain functionality and minimize integration issues'
           ]
         },
@@ -35,17 +34,16 @@ module.exports = {
           description: 'Official company website',
           withSubprojects: false,
           responsibilities: [
-            'Planned, developed, tested, and maintained the front-end of the company website using <b>Vue 2</b>, <b>Nuxt.js</b>, and <b>SCSS</b>, ensuring responsive design across all devices',
+            'Planned, developed, tested, and maintained the frontend of the company website using <b>Vue 2</b>, <b>Nuxt.js</b>, and <b>SCSS</b>, ensuring responsive design across all devices',
             'Integrated <b>Prismic CMS</b> to allow easy content management and dynamic page updates',
-            'Created adaptive and reusable slides for internal pages, improving content consistency and reducing future development time',
+            'Built a reusable slide component system for internal pages, configurable via Prismic CMS',
             'Integrated third-party APIs (<b>Mailgun</b>, <b>mad-radiator</b>) to automate analytics collection from Google Analytics, Glassdoor, Quora, and Reddit, delivering structured reports to Telegram and Slack',
-            'Optimized front-end performance, reducing page load times and improving user experience'
           ]
         },
         {
           project: 'WalletPool',
           period: '(Mar 2023 - Aug 2023, Sep 2023 - Jun 2025)',
-          description: 'Platform for team-based cryptocurrency asset management. Worked on front-end development using <b>React</b>, <b>Next.js</b>, <b>Chakra UI</b>, and <b>Web3</b> technologies',
+          description: 'Platform for team-based cryptocurrency asset management. Worked on frontend development using <b>React</b>, <b>Next.js</b>, <b>Chakra UI</b>, and <b>Web3</b> technologies',
           withSubprojects: true,
           responsibilities: [
             {
@@ -53,7 +51,7 @@ module.exports = {
               responsibilities: [
                 'Developed responsive UI components and dashboard for team crypto management using <b>React</b>, <b>Next.js</b> and <b>Chakra UI</b> components library',
                 'Integrated <b>Web3</b> features for wallet interactions and transaction tracking',
-                'Ensured smooth performance and cross-browser compatibility'
+                'Tested across major browsers'
               ],
             },
             {
@@ -69,10 +67,10 @@ module.exports = {
         {
           project: 'Optux',
           period: '(Aug 2023 - Jun 2025)',
-          description: 'Platform for A/B testing websites. Developed full front-end from scratch using <b>React</b> and <b>Chakra UI</b>',
+          description: 'Platform for A/B testing websites. Developed full frontend from scratch using <b>React</b> and <b>Chakra UI</b>',
           withSubprojects: false,
           responsibilities: [
-            'Architected and shipped the full front-end from scratch - main pages, editor, analytics dashboard, and settings - enabling the platform to reach production',
+            'Architected and shipped the full frontend from scratch - main pages, editor, analytics dashboard, and settings - enabling the platform to reach production',
             'Developed a custom iframe-based editor for modifying third-party website pages, enabling live <b>A/B testing</b> functionality',
             'Implemented interactive analytics charts by processing raw backend data, giving users real-time visibility into test results',
             'Mocked backend responses with <b>MSW</b> to enable reliable unit testing independently of API readiness',
@@ -82,7 +80,7 @@ module.exports = {
         {
           project: 'AI True PMF',
           period: '(Jun 2025 - Aug 2025)',
-          description: 'Platform for validating startup ideas using AI-driven lead generation and team collaboration. Developed front-end using <b>React</b> and <b>TanStack</b> ecosystem',
+          description: 'Platform for validating startup ideas using AI-driven lead generation and team collaboration. Developed frontend using <b>React</b> and <b>TanStack</b> ecosystem',
           withSubprojects: false,
           responsibilities: [
             'Built interactive dashboards and session pages to manage experiments and track results',
@@ -100,8 +98,7 @@ module.exports = {
           responsibilities: [
             'Resolved Google Play Console 16KB page alignment requirement, enabling successful app publication',
             'Migrated forms to TanStack Form with Zod validation, modernizing the codebase across multiple apps',
-            'Implemented new features and performance optimizations across 12 interconnected applications',
-            'Maintained consistent functionality across web, admin, and mobile platforms with shared codebase architecture',
+            'Implemented new features and bug fixes across 12 interconnected applications (web, admin, mobile)',
           ]
         }
       ]
