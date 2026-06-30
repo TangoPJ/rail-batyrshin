@@ -4,7 +4,7 @@ module.exports = {
   email: '<a href="mailto:rail.batyrshin.js@gmail.com" target="_blank">Email</a>',
   github: '<a href="https://github.com/TangoPJ" target="_blank">GitHub</a>',
   linkedin: '<a href="https://www.linkedin.com/in/rail-batyrshin" target="_blank">Linkedin</a>',
-  summary: 'Frontend Engineer with 5 years of experience building production-grade web products in React, TypeScript, and modern UI frameworks. Delivered multiple platforms from scratch, including A/B testing tools, AI-driven interfaces, and cross-platform apps, and independently shipped a SaaS MVP. Open-source contributor and technical writer.',
+  summary: 'Experienced Frontend Engineer with 5 years of commercial experience building production-grade web products in TypeScript, React and modern UI frameworks. Delivered multiple platforms from scratch, including A/B testing tools, AI-driven interfaces, and cross-platform apps, and independently shipped a SaaS MVP. Open-source contributor.',
   skills: [
     { category: 'Frontend', items: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Next', 'Vue', 'Nuxt', 'React Native', 'Redux', 'Redux Toolkit', 'RTK Query', 'TanStack', 'MSW'] },
     { category: 'Backend', items: ['Node.js / Bun', 'Hono', 'PostgreSQL', 'Drizzle ORM', 'AWS S3'] },
@@ -15,7 +15,7 @@ module.exports = {
       title: 'Frontend Engineer',
       company: 'MadDevs',
       location: 'Bishkek, Kyrgyzstan',
-      period: 'Jun 2021 - Present',
+      period: 'Jun 2021 - Mar 2026',
       projects: [
         {
           project: 'Enji',
