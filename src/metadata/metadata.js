@@ -6,9 +6,9 @@ module.exports = {
   linkedin: '<a href="https://www.linkedin.com/in/rail-batyrshin" target="_blank">Linkedin</a>',
   summary: 'Experienced Frontend Engineer with 5 years of commercial experience building production-grade web products in TypeScript, React and modern UI frameworks. Delivered multiple platforms from scratch, including A/B testing tools, AI-driven interfaces, and cross-platform apps, and independently shipped a SaaS MVP. Open-source contributor.',
   skills: [
-    { category: 'Frontend', items: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Next', 'Vue', 'Nuxt', 'React Native', 'Redux', 'Redux Toolkit', 'RTK Query', 'TanStack', 'MSW'] },
+    { category: 'Frontend', items: ['HTML5', 'CSS3', 'CSS Modules', 'SCSS/SASS', 'JavaScript', 'TypeScript', 'React', 'Next', 'Vue', 'Nuxt', 'React Native', 'Redux', 'Redux Toolkit', 'RTK Query', 'TanStack', 'MSW'] },
     { category: 'Backend', items: ['Node.js / Bun', 'Hono', 'PostgreSQL', 'Drizzle ORM', 'AWS S3'] },
-    { category: 'Tooling', items: ['Vite', 'Webpack', 'API integration', 'Responsive/Adaptive UI/UX design'] },
+    { category: 'Tooling', items: ['Vite', 'Webpack', 'API integration', 'Responsive/Adaptive UI/UX design', 'Figma', 'Git'] },
   ],
   experience: [
     {
@@ -23,7 +23,7 @@ module.exports = {
           withSubprojects: false,
           responsibilities: [
             'Collaborated with founders to translate initial business requirements into actionable technical specifications',
-            'Developed frontend architecture and implemented responsive UI components for all pages using <b>Vue 3</b> and <b>Quasar</b> framework, enabling a functional MVP for early user testing',
+            'Developed frontend architecture and implemented responsive UI components with hand-crafted CSS Modules layouts from Figma designs for all pages using <b>Vue 3</b> and <b>Quasar</b>',
             'Integrated API endpoints to enable smooth data flow between frontend and backend services',
             'Conducted unit testing and debugging to maintain functionality and minimize integration issues'
           ]
@@ -34,7 +34,7 @@ module.exports = {
           description: 'Official company website',
           withSubprojects: false,
           responsibilities: [
-            'Planned, developed, tested, and maintained the frontend of the company website using <b>Vue 2</b>, <b>Nuxt.js</b>, and <b>SCSS</b>, ensuring responsive design across all devices',
+            'Planned, developed, tested, and maintained the frontend of the company website from Figma designs using <b>Vue 2</b>, <b>Nuxt.js</b>, and <b>SCSS</b>, ensuring responsive design across all devices',
             'Integrated <b>Prismic CMS</b> to allow easy content management and dynamic page updates',
             'Built a reusable slide component system for internal pages, configurable via Prismic CMS',
             'Integrated third-party APIs (<b>Mailgun</b>, <b>mad-radiator</b>) to automate analytics collection from Google Analytics, Glassdoor, Quora, and Reddit, delivering structured reports to Telegram and Slack',
@@ -49,7 +49,7 @@ module.exports = {
             {
               subProject: '<b>Crypto Marry</b>',
               responsibilities: [
-                'Developed responsive UI components and dashboard for team crypto management using <b>React</b>, <b>Next.js</b> and <b>Chakra UI</b> components library',
+                'Developed responsive UI components and dashboard with custom CSS Modules styling based on Figma designs for team crypto management using <b>React</b>, <b>Next.js</b> and <b>Chakra UI</b>',
                 'Integrated <b>Web3</b> features for wallet interactions and transaction tracking',
                 'Tested across major browsers'
               ],
@@ -74,7 +74,8 @@ module.exports = {
             'Developed a custom iframe-based editor for modifying third-party website pages, enabling live <b>A/B testing</b> functionality',
             'Implemented interactive analytics charts by processing raw backend data, giving users real-time visibility into test results',
             'Mocked backend responses with <b>MSW</b> to enable reliable unit testing independently of API readiness',
-            'Collaborated with backend developers on API design to ensure clean data contracts across the stack'
+            'Collaborated with backend developers on API design to ensure clean data contracts across the stack',
+            'Built custom responsive layouts and markup from Figma designs for editor, analytics dashboard, and settings pages using CSS Modules',
           ]
         },
         {
@@ -86,7 +87,7 @@ module.exports = {
             'Built interactive dashboards and session pages to manage experiments and track results',
             'Implemented real-time collaboration and online chat using <b>WebSockets</b>',
             'Integrated <b>AI</b> workflows to identify potential client companies and prioritize leads from cold call transcripts',
-            'Designed responsive UI components for seamless cross-device experience',
+            'Designed and hand-coded responsive UI layouts (CSS Modules) from <b>Figma</b> designs for seamless cross-device experience',
             'Collaborated with backend developers to ensure smooth data flow between AI services, chat, and dashboards'
           ]
         },
