@@ -7,7 +7,7 @@ module.exports = {
   summary: 'Experienced Frontend Engineer with 5 years of commercial experience building production-grade web products in TypeScript, React and modern UI frameworks. Delivered multiple platforms from scratch, including A/B testing tools, AI-driven interfaces, and cross-platform apps, and independently shipped a SaaS MVP. Open-source contributor.',
   skills: [
     { category: 'Frontend', items: ['HTML5', 'CSS3', 'CSS Modules', 'SCSS/SASS', 'JavaScript', 'TypeScript', 'React', 'Next', 'Vue', 'Nuxt', 'React Native', 'Redux', 'Redux Toolkit', 'RTK Query', 'TanStack', 'MSW'] },
-    { category: 'Backend', items: ['Node.js / Bun', 'Hono', 'PostgreSQL', 'Drizzle ORM', 'AWS S3'] },
+    { category: 'Backend', items: ['Node.js / Bun', 'Hono', 'PostgreSQL', 'DrizzleORM', 'AWS S3'] },
     { category: 'Tooling', items: ['Vite', 'Webpack', 'API integration', 'Responsive/Adaptive UI/UX design', 'Figma', 'Git'] },
   ],
   experience: [
@@ -118,7 +118,7 @@ module.exports = {
     {
       title: '<b>Side Projects</b>',
       descriptions: [
-        '<a href="https://app.testless.tech" target="_blank">Testless</a> - Independently designed and shipped a fullstack SaaS MVP in 1 month. AI-powered A/B testing platform: AI-generated landing page variants, cookie-based traffic splitting, real-time analytics with automatic winner detection. Stack: TypeScript, Bun, Hono, PostgreSQL, Drizzle ORM, React, TanStack, Astro, AWS S3, Groq AI.',
+        '<a href="https://app.testless.tech" target="_blank">Testless</a> - Independently designed and shipped a fullstack SaaS MVP in 1 month. AI-powered A/B testing platform: AI-generated landing page variants, cookie-based traffic splitting, real-time analytics with automatic winner detection. Stack: TypeScript, Bun, Hono, PostgreSQL, DrizzleORM, React, TanStack, Astro, Cerebras AI',
       ]
     },
     {
